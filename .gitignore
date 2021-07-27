@@ -18,3 +18,12 @@
 /src/.umi-production
 /src/.umi-test
 /.env.local
+
+# 아래에 추가
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
